@@ -8,7 +8,7 @@ overflow-x: hidden;
 
 img{
     width:100%;
-    max-width:500px;
+    max-width:90%;
     display: block;
 }
 .img-container{
@@ -17,4 +17,10 @@ img{
     margin-top:2rem;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width:800px){
+    img{
+        max-width:95%;
+    }
 }
